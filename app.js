@@ -15,6 +15,20 @@ function updateTimer() {
   const timerElement = document.getElementById("timer");
   timerElement.textContent = timeInSeconds;
   var leftHealt = document.getElementById("leftHealt");
+  var rightHealt = document.getElementById("rightHealt");
+
+  switch (timeInSeconds) {
+    case 50:
+      rightHealt.style.width = "70%";
+      break;
+    case 38:
+      rightHealt.style.width = "55%";
+      break;
+    case 24:
+      rightHealt.style.width = "25%";
+      break;
+  }
+
   switch (timeInSeconds) {
     case 55:
       leftHealt.style.width = "70%";
@@ -37,8 +51,6 @@ function updateTimer() {
     case 5:
       leftHealt.style.width = "5%";
       break;
-    default:
-      text = "You lose";
   }
 
   if (timeInSeconds === 0) {

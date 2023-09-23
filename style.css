@@ -62,6 +62,7 @@
 .rightContainer > img {
   width: 50px;
   border-radius: 25px;
+  position: fixed;
 }
 
 #leftHealt,
