@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "DragonHunter";
+  src: url(fonts/DragonHunter.otf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: "DragonHunter";
+}
+.container {
+  background-image: url(animation-img/background2.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#leftCharactor {
+  position: absolute;
+  bottom: 30px;
+  height: 390px;
+  left: 0px;
+}
+#rightCharactor {
+  position: absolute;
+  bottom: 30px;
+  height: 330px;
+  right: 80px;
+}
+#timer {
+  color: white;
+  margin: 0 auto;
+  font-size: 6em;
+  text-align: center;
+  color: #fe6a03;
+}
+#poster {
+  display: none;
+  width: 100%;
+  position: absolute;
+  z-index: 33;
+  transition: 3s;
+}

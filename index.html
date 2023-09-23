@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css"
+    />
+    <title>Animation Game By Ahmed</title>
+  </head>
+  <body>
+    <div class="container">
+      <img id="poster" src="animation-img/poster.png" alt="" />
+      <p id="timer">00</p>
+      <img
+        id="leftCharactor"
+        src="animation-img/Sol-badguy/standingPositions.gif"
+        onkeydown="leftAnimation()"
+      />
+      <img
+        id="rightCharactor"
+        src="animation-img/Terry-Bogard/starting.gif"
+        onkeydown="rightAnimation()"
+      />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
