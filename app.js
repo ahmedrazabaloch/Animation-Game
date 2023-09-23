@@ -9,11 +9,37 @@
 
 //                >>>>>>> Count-Down <<<<<<<<
 
-// var timeInSeconds = 62;
+var timeInSeconds = 62;
 
 function updateTimer() {
   const timerElement = document.getElementById("timer");
   timerElement.textContent = timeInSeconds;
+  var leftHealt = document.getElementById("leftHealt");
+  switch (timeInSeconds) {
+    case 55:
+      leftHealt.style.width = "70%";
+      break;
+    case 50:
+      leftHealt.style.width = "60%";
+      break;
+    case 45:
+      leftHealt.style.width = "50%";
+      break;
+    case 40:
+      leftHealt.style.width = "40%";
+      break;
+    case 35:
+      leftHealt.style.width = "30%";
+      break;
+    case 30:
+      leftHealt.style.width = "20%";
+      break;
+    case 5:
+      leftHealt.style.width = "5%";
+      break;
+    default:
+      text = "You lose";
+  }
 
   if (timeInSeconds === 0) {
     timerElement.textContent = "Time's up!";
