@@ -1,15 +1,15 @@
 //                >>>>>>> V/S Poster <<<<<<<<
 
-var poster = document.getElementById("poster");
-poster.style.display = "block";
+// var poster = document.getElementById("poster");
+// poster.style.display = "block";
 
-setTimeout(function () {
-  poster.style.display = "none";
-}, 3000);
+// setTimeout(function () {
+//   poster.style.display = "none";
+// }, 3000);
 
 //                >>>>>>> Count-Down <<<<<<<<
 
-var timeInSeconds = 62;
+// var timeInSeconds = 62;
 
 function updateTimer() {
   const timerElement = document.getElementById("timer");
