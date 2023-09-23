@@ -1,11 +1,11 @@
 //                >>>>>>> V/S Poster <<<<<<<<
 
-// var poster = document.getElementById("poster");
-// poster.style.display = "block";
+var poster = document.getElementById("poster");
+poster.style.display = "block";
 
-// setTimeout(function () {
-//   poster.style.display = "none";
-// }, 3000);
+setTimeout(function () {
+  poster.style.display = "none";
+}, 3000);
 
 //                >>>>>>> Count-Down <<<<<<<<
 
