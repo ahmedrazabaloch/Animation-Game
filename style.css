@@ -79,3 +79,17 @@
   background: linear-gradient(#55680d, #71f53e, #116c31);
   border-radius: 30px;
 }
+
+#leftBtn,
+#rightBtn {
+  width: 120px;
+  position: absolute;
+  top: 12%;
+}
+#rightBtn {
+  right: 3%;
+  width: 80px;
+}
+#leftBtn {
+  left: 3%;
+}
